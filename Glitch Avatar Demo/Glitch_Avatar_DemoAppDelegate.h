@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@class Glitch_Avatar_DemoViewController;
+@class SpriteDemoViewController;
 
 @interface Glitch_Avatar_DemoAppDelegate : NSObject <UIApplicationDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet Glitch_Avatar_DemoViewController *viewController;
+@property (nonatomic, retain) IBOutlet SpriteDemoViewController *viewController;
 
 @end

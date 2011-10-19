@@ -8,7 +8,8 @@
 
 #import "Glitch_Avatar_DemoAppDelegate.h"
 
-#import "Glitch_Avatar_DemoViewController.h"
+#import "SpriteDemoViewController.h"
+#import "GlitchCentral.h"
 
 @implementation Glitch_Avatar_DemoAppDelegate
 
@@ -24,6 +25,12 @@
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+    [[GlitchCentral sharedInstance] handleOpenURL:url];
+    
+    return YES;
+}
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     /*

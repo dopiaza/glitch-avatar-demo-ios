@@ -1,14 +1,25 @@
 //
-//  Glitch_Avatar_DemoViewController.m
-//  Glitch Avatar Demo
+//  AuthenticationRequiredViewController.m
+//  GlitchTestApp
 //
-//  Created by David Wilkinson on 16/10/2011.
+//  Created by David Wilkinson on 23/07/2011.
 //  Copyright 2011 Lumen Services Limited. All rights reserved.
 //
 
-#import "Glitch_Avatar_DemoViewController.h"
+#import "AuthenticationRequiredViewController.h"
+#import "GlitchCentral.h"
 
-@implementation Glitch_Avatar_DemoViewController
+@implementation AuthenticationRequiredViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) 
+    {
+        // Custom initialization
+    }
+    return self;
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -20,13 +31,11 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
 }
-*/
 
 - (void)viewDidUnload
 {
@@ -41,4 +50,10 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+
+-(IBAction) authenticate
+{    
+    GlitchCentral *glitch = [GlitchCentral sharedInstance];
+    [glitch authenticate];   
+}
 @end

@@ -14,8 +14,40 @@
 		4FB48D9F144B577F00B026CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48D9E144B577F00B026CB /* main.m */; };
 		4FB48DA3144B577F00B026CB /* Glitch_Avatar_DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DA2144B577F00B026CB /* Glitch_Avatar_DemoAppDelegate.m */; };
 		4FB48DA6144B577F00B026CB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FB48DA4144B577F00B026CB /* MainWindow.xib */; };
-		4FB48DA9144B577F00B026CB /* Glitch_Avatar_DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DA8144B577F00B026CB /* Glitch_Avatar_DemoViewController.m */; };
-		4FB48DAC144B577F00B026CB /* Glitch_Avatar_DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FB48DAA144B577F00B026CB /* Glitch_Avatar_DemoViewController.xib */; };
+		4FB48DB7144B582600B026CB /* Entitlements.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 4FB48DB2144B582600B026CB /* Entitlements.entitlements */; };
+		4FB48DB8144B582600B026CB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB48DB3144B582600B026CB /* Icon-72.png */; };
+		4FB48DB9144B582600B026CB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB48DB4144B582600B026CB /* Icon.png */; };
+		4FB48DBA144B582600B026CB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB48DB5144B582600B026CB /* Icon@2x.png */; };
+		4FB48DBB144B582600B026CB /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FB48DB6144B582600B026CB /* iTunesArtwork.png */; };
+		4FB48DE8144B583D00B026CB /* AuthenticationRequiredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DBD144B583C00B026CB /* AuthenticationRequiredViewController.m */; };
+		4FB48DE9144B583D00B026CB /* AuthenticationRequiredViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FB48DBE144B583C00B026CB /* AuthenticationRequiredViewController.xib */; };
+		4FB48DEA144B583D00B026CB /* GlitchCentral.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DC0144B583C00B026CB /* GlitchCentral.m */; };
+		4FB48DEB144B583D00B026CB /* GlitchError.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DC2144B583D00B026CB /* GlitchError.m */; };
+		4FB48DEC144B583D00B026CB /* GCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DC6144B583D00B026CB /* GCRequest.m */; };
+		4FB48DED144B583D00B026CB /* Glitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DC8144B583D00B026CB /* Glitch.m */; };
+		4FB48DEE144B583D00B026CB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4FB48DCB144B583D00B026CB /* LICENSE */; };
+		4FB48DEF144B583D00B026CB /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DCD144B583D00B026CB /* NSObject+SBJson.m */; };
+		4FB48DF0144B583D00B026CB /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DD0144B583D00B026CB /* SBJsonParser.m */; };
+		4FB48DF1144B583D00B026CB /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DD2144B583D00B026CB /* SBJsonStreamParser.m */; };
+		4FB48DF2144B583D00B026CB /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DD4144B583D00B026CB /* SBJsonStreamParserAccumulator.m */; };
+		4FB48DF3144B583D00B026CB /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DD6144B583D00B026CB /* SBJsonStreamParserAdapter.m */; };
+		4FB48DF4144B583D00B026CB /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DD8144B583D00B026CB /* SBJsonStreamParserState.m */; };
+		4FB48DF5144B583D00B026CB /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DDA144B583D00B026CB /* SBJsonStreamWriter.m */; };
+		4FB48DF6144B583D00B026CB /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DDC144B583D00B026CB /* SBJsonStreamWriterAccumulator.m */; };
+		4FB48DF7144B583D00B026CB /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DDE144B583D00B026CB /* SBJsonStreamWriterState.m */; };
+		4FB48DF8144B583D00B026CB /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DE0144B583D00B026CB /* SBJsonTokeniser.m */; };
+		4FB48DF9144B583D00B026CB /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DE2144B583D00B026CB /* SBJsonUTF8Stream.m */; };
+		4FB48DFA144B583D00B026CB /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DE4144B583D00B026CB /* SBJsonWriter.m */; };
+		4FB48DFB144B583D00B026CB /* SpriteDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DE6144B583D00B026CB /* SpriteDemoViewController.m */; };
+		4FB48DFC144B583D00B026CB /* SpriteDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FB48DE7144B583D00B026CB /* SpriteDemoViewController.xib */; };
+		4FB48E07144B5C6800B026CB /* GlitchAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48DFE144B5C6700B026CB /* GlitchAnimation.m */; };
+		4FB48E08144B5C6800B026CB /* GlitchAnimationFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48E00144B5C6700B026CB /* GlitchAnimationFrame.m */; };
+		4FB48E09144B5C6800B026CB /* GlitchAnimationSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48E02144B5C6800B026CB /* GlitchAnimationSet.m */; };
+		4FB48E0A144B5C6800B026CB /* GlitchSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48E04144B5C6800B026CB /* GlitchSprite.m */; };
+		4FB48E0B144B5C6800B026CB /* GlitchSpriteSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48E06144B5C6800B026CB /* GlitchSpriteSheet.m */; };
+		4FB48E12144B5D1600B026CB /* DZDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48E0D144B5D1400B026CB /* DZDataCache.m */; };
+		4FB48E13144B5D1600B026CB /* DZDataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48E0F144B5D1500B026CB /* DZDataLoader.m */; };
+		4FB48E14144B5D1600B026CB /* LLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB48E11144B5D1600B026CB /* LLDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +55,76 @@
 		4FB48D92144B577F00B026CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4FB48D94144B577F00B026CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4FB48D96144B577F00B026CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4FB48D9A144B577F00B026CB /* Glitch Avatar Demo-Info.plist */ = {isa = PBXFileReference; path = "Glitch Avatar Demo-Info.plist"; sourceTree = "<group>"; };
+		4FB48D9A144B577F00B026CB /* Glitch Avatar Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Glitch Avatar Demo-Info.plist"; sourceTree = "<group>"; };
 		4FB48D9C144B577F00B026CB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4FB48D9E144B577F00B026CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4FB48DA0144B577F00B026CB /* Glitch Avatar Demo-Prefix.pch */ = {isa = PBXFileReference; path = "Glitch Avatar Demo-Prefix.pch"; sourceTree = "<group>"; };
-		4FB48DA1144B577F00B026CB /* Glitch_Avatar_DemoAppDelegate.h */ = {isa = PBXFileReference; path = Glitch_Avatar_DemoAppDelegate.h; sourceTree = "<group>"; };
+		4FB48DA0144B577F00B026CB /* Glitch Avatar Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Glitch Avatar Demo-Prefix.pch"; sourceTree = "<group>"; };
+		4FB48DA1144B577F00B026CB /* Glitch_Avatar_DemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Glitch_Avatar_DemoAppDelegate.h; sourceTree = "<group>"; };
 		4FB48DA2144B577F00B026CB /* Glitch_Avatar_DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Glitch_Avatar_DemoAppDelegate.m; sourceTree = "<group>"; };
 		4FB48DA5144B577F00B026CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		4FB48DA7144B577F00B026CB /* Glitch_Avatar_DemoViewController.h */ = {isa = PBXFileReference; path = Glitch_Avatar_DemoViewController.h; sourceTree = "<group>"; };
-		4FB48DA8144B577F00B026CB /* Glitch_Avatar_DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Glitch_Avatar_DemoViewController.m; sourceTree = "<group>"; };
-		4FB48DAB144B577F00B026CB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Glitch_Avatar_DemoViewController.xib; sourceTree = "<group>"; };
+		4FB48DB2144B582600B026CB /* Entitlements.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Entitlements.entitlements; sourceTree = "<group>"; };
+		4FB48DB3144B582600B026CB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		4FB48DB4144B582600B026CB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4FB48DB5144B582600B026CB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		4FB48DB6144B582600B026CB /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		4FB48DBC144B583C00B026CB /* AuthenticationRequiredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationRequiredViewController.h; sourceTree = "<group>"; };
+		4FB48DBD144B583C00B026CB /* AuthenticationRequiredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationRequiredViewController.m; sourceTree = "<group>"; };
+		4FB48DBE144B583C00B026CB /* AuthenticationRequiredViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticationRequiredViewController.xib; sourceTree = "<group>"; };
+		4FB48DBF144B583C00B026CB /* GlitchCentral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlitchCentral.h; sourceTree = "<group>"; };
+		4FB48DC0144B583C00B026CB /* GlitchCentral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlitchCentral.m; sourceTree = "<group>"; };
+		4FB48DC1144B583D00B026CB /* GlitchError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlitchError.h; sourceTree = "<group>"; };
+		4FB48DC2144B583D00B026CB /* GlitchError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlitchError.m; sourceTree = "<group>"; };
+		4FB48DC3144B583D00B026CB /* GlitchErrorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlitchErrorType.h; sourceTree = "<group>"; };
+		4FB48DC5144B583D00B026CB /* GCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCRequest.h; sourceTree = "<group>"; };
+		4FB48DC6144B583D00B026CB /* GCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCRequest.m; sourceTree = "<group>"; };
+		4FB48DC7144B583D00B026CB /* Glitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Glitch.h; sourceTree = "<group>"; };
+		4FB48DC8144B583D00B026CB /* Glitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Glitch.m; sourceTree = "<group>"; };
+		4FB48DC9144B583D00B026CB /* GlitchConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlitchConfig.h; sourceTree = "<group>"; };
+		4FB48DCB144B583D00B026CB /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4FB48DCC144B583D00B026CB /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		4FB48DCD144B583D00B026CB /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		4FB48DCE144B583D00B026CB /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		4FB48DCF144B583D00B026CB /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		4FB48DD0144B583D00B026CB /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		4FB48DD1144B583D00B026CB /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		4FB48DD2144B583D00B026CB /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		4FB48DD3144B583D00B026CB /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		4FB48DD4144B583D00B026CB /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		4FB48DD5144B583D00B026CB /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		4FB48DD6144B583D00B026CB /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		4FB48DD7144B583D00B026CB /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		4FB48DD8144B583D00B026CB /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		4FB48DD9144B583D00B026CB /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		4FB48DDA144B583D00B026CB /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		4FB48DDB144B583D00B026CB /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		4FB48DDC144B583D00B026CB /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		4FB48DDD144B583D00B026CB /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		4FB48DDE144B583D00B026CB /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		4FB48DDF144B583D00B026CB /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		4FB48DE0144B583D00B026CB /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		4FB48DE1144B583D00B026CB /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		4FB48DE2144B583D00B026CB /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		4FB48DE3144B583D00B026CB /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		4FB48DE4144B583D00B026CB /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		4FB48DE5144B583D00B026CB /* SpriteDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteDemoViewController.h; sourceTree = "<group>"; };
+		4FB48DE6144B583D00B026CB /* SpriteDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteDemoViewController.m; sourceTree = "<group>"; };
+		4FB48DE7144B583D00B026CB /* SpriteDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpriteDemoViewController.xib; sourceTree = "<group>"; };
+		4FB48DFD144B5C6700B026CB /* GlitchAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlitchAnimation.h; sourceTree = "<group>"; };
+		4FB48DFE144B5C6700B026CB /* GlitchAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlitchAnimation.m; sourceTree = "<group>"; };
+		4FB48DFF144B5C6700B026CB /* GlitchAnimationFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlitchAnimationFrame.h; sourceTree = "<group>"; };
+		4FB48E00144B5C6700B026CB /* GlitchAnimationFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlitchAnimationFrame.m; sourceTree = "<group>"; };
+		4FB48E01144B5C6800B026CB /* GlitchAnimationSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlitchAnimationSet.h; sourceTree = "<group>"; };
+		4FB48E02144B5C6800B026CB /* GlitchAnimationSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlitchAnimationSet.m; sourceTree = "<group>"; };
+		4FB48E03144B5C6800B026CB /* GlitchSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlitchSprite.h; sourceTree = "<group>"; };
+		4FB48E04144B5C6800B026CB /* GlitchSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlitchSprite.m; sourceTree = "<group>"; };
+		4FB48E05144B5C6800B026CB /* GlitchSpriteSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlitchSpriteSheet.h; sourceTree = "<group>"; };
+		4FB48E06144B5C6800B026CB /* GlitchSpriteSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlitchSpriteSheet.m; sourceTree = "<group>"; };
+		4FB48E0C144B5D1400B026CB /* DZDataCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZDataCache.h; sourceTree = "<group>"; };
+		4FB48E0D144B5D1400B026CB /* DZDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZDataCache.m; sourceTree = "<group>"; };
+		4FB48E0E144B5D1500B026CB /* DZDataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZDataLoader.h; sourceTree = "<group>"; };
+		4FB48E0F144B5D1500B026CB /* DZDataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZDataLoader.m; sourceTree = "<group>"; };
+		4FB48E10144B5D1600B026CB /* LLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLDictionary.h; sourceTree = "<group>"; };
+		4FB48E11144B5D1600B026CB /* LLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +144,11 @@
 		4FB48D83144B577F00B026CB = {
 			isa = PBXGroup;
 			children = (
+				4FB48DB2144B582600B026CB /* Entitlements.entitlements */,
+				4FB48DB3144B582600B026CB /* Icon-72.png */,
+				4FB48DB4144B582600B026CB /* Icon.png */,
+				4FB48DB5144B582600B026CB /* Icon@2x.png */,
+				4FB48DB6144B582600B026CB /* iTunesArtwork.png */,
 				4FB48D98144B577F00B026CB /* Glitch Avatar Demo */,
 				4FB48D91144B577F00B026CB /* Frameworks */,
 				4FB48D8F144B577F00B026CB /* Products */,
@@ -79,12 +176,37 @@
 		4FB48D98144B577F00B026CB /* Glitch Avatar Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4FB48E0C144B5D1400B026CB /* DZDataCache.h */,
+				4FB48E0D144B5D1400B026CB /* DZDataCache.m */,
+				4FB48E0E144B5D1500B026CB /* DZDataLoader.h */,
+				4FB48E0F144B5D1500B026CB /* DZDataLoader.m */,
+				4FB48E10144B5D1600B026CB /* LLDictionary.h */,
+				4FB48E11144B5D1600B026CB /* LLDictionary.m */,
+				4FB48DFD144B5C6700B026CB /* GlitchAnimation.h */,
+				4FB48DFE144B5C6700B026CB /* GlitchAnimation.m */,
+				4FB48DFF144B5C6700B026CB /* GlitchAnimationFrame.h */,
+				4FB48E00144B5C6700B026CB /* GlitchAnimationFrame.m */,
+				4FB48E01144B5C6800B026CB /* GlitchAnimationSet.h */,
+				4FB48E02144B5C6800B026CB /* GlitchAnimationSet.m */,
+				4FB48E03144B5C6800B026CB /* GlitchSprite.h */,
+				4FB48E04144B5C6800B026CB /* GlitchSprite.m */,
+				4FB48E05144B5C6800B026CB /* GlitchSpriteSheet.h */,
+				4FB48E06144B5C6800B026CB /* GlitchSpriteSheet.m */,
+				4FB48DBC144B583C00B026CB /* AuthenticationRequiredViewController.h */,
+				4FB48DBD144B583C00B026CB /* AuthenticationRequiredViewController.m */,
+				4FB48DBE144B583C00B026CB /* AuthenticationRequiredViewController.xib */,
+				4FB48DBF144B583C00B026CB /* GlitchCentral.h */,
+				4FB48DC0144B583C00B026CB /* GlitchCentral.m */,
+				4FB48DC1144B583D00B026CB /* GlitchError.h */,
+				4FB48DC2144B583D00B026CB /* GlitchError.m */,
+				4FB48DC3144B583D00B026CB /* GlitchErrorType.h */,
+				4FB48DC4144B583D00B026CB /* sdk */,
+				4FB48DE5144B583D00B026CB /* SpriteDemoViewController.h */,
+				4FB48DE6144B583D00B026CB /* SpriteDemoViewController.m */,
+				4FB48DE7144B583D00B026CB /* SpriteDemoViewController.xib */,
 				4FB48DA1144B577F00B026CB /* Glitch_Avatar_DemoAppDelegate.h */,
 				4FB48DA2144B577F00B026CB /* Glitch_Avatar_DemoAppDelegate.m */,
 				4FB48DA4144B577F00B026CB /* MainWindow.xib */,
-				4FB48DA7144B577F00B026CB /* Glitch_Avatar_DemoViewController.h */,
-				4FB48DA8144B577F00B026CB /* Glitch_Avatar_DemoViewController.m */,
-				4FB48DAA144B577F00B026CB /* Glitch_Avatar_DemoViewController.xib */,
 				4FB48D99144B577F00B026CB /* Supporting Files */,
 			);
 			path = "Glitch Avatar Demo";
@@ -99,6 +221,52 @@
 				4FB48DA0144B577F00B026CB /* Glitch Avatar Demo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FB48DC4144B583D00B026CB /* sdk */ = {
+			isa = PBXGroup;
+			children = (
+				4FB48DC5144B583D00B026CB /* GCRequest.h */,
+				4FB48DC6144B583D00B026CB /* GCRequest.m */,
+				4FB48DC7144B583D00B026CB /* Glitch.h */,
+				4FB48DC8144B583D00B026CB /* Glitch.m */,
+				4FB48DC9144B583D00B026CB /* GlitchConfig.h */,
+				4FB48DCA144B583D00B026CB /* JSON */,
+			);
+			path = sdk;
+			sourceTree = "<group>";
+		};
+		4FB48DCA144B583D00B026CB /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				4FB48DCB144B583D00B026CB /* LICENSE */,
+				4FB48DCC144B583D00B026CB /* NSObject+SBJson.h */,
+				4FB48DCD144B583D00B026CB /* NSObject+SBJson.m */,
+				4FB48DCE144B583D00B026CB /* SBJson.h */,
+				4FB48DCF144B583D00B026CB /* SBJsonParser.h */,
+				4FB48DD0144B583D00B026CB /* SBJsonParser.m */,
+				4FB48DD1144B583D00B026CB /* SBJsonStreamParser.h */,
+				4FB48DD2144B583D00B026CB /* SBJsonStreamParser.m */,
+				4FB48DD3144B583D00B026CB /* SBJsonStreamParserAccumulator.h */,
+				4FB48DD4144B583D00B026CB /* SBJsonStreamParserAccumulator.m */,
+				4FB48DD5144B583D00B026CB /* SBJsonStreamParserAdapter.h */,
+				4FB48DD6144B583D00B026CB /* SBJsonStreamParserAdapter.m */,
+				4FB48DD7144B583D00B026CB /* SBJsonStreamParserState.h */,
+				4FB48DD8144B583D00B026CB /* SBJsonStreamParserState.m */,
+				4FB48DD9144B583D00B026CB /* SBJsonStreamWriter.h */,
+				4FB48DDA144B583D00B026CB /* SBJsonStreamWriter.m */,
+				4FB48DDB144B583D00B026CB /* SBJsonStreamWriterAccumulator.h */,
+				4FB48DDC144B583D00B026CB /* SBJsonStreamWriterAccumulator.m */,
+				4FB48DDD144B583D00B026CB /* SBJsonStreamWriterState.h */,
+				4FB48DDE144B583D00B026CB /* SBJsonStreamWriterState.m */,
+				4FB48DDF144B583D00B026CB /* SBJsonTokeniser.h */,
+				4FB48DE0144B583D00B026CB /* SBJsonTokeniser.m */,
+				4FB48DE1144B583D00B026CB /* SBJsonUTF8Stream.h */,
+				4FB48DE2144B583D00B026CB /* SBJsonUTF8Stream.m */,
+				4FB48DE3144B583D00B026CB /* SBJsonWriter.h */,
+				4FB48DE4144B583D00B026CB /* SBJsonWriter.m */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +295,7 @@
 		4FB48D85144B577F00B026CB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Lumen Services Limited";
 			};
 			buildConfigurationList = 4FB48D88144B577F00B026CB /* Build configuration list for PBXProject "Glitch Avatar Demo" */;
@@ -153,7 +322,14 @@
 			files = (
 				4FB48D9D144B577F00B026CB /* InfoPlist.strings in Resources */,
 				4FB48DA6144B577F00B026CB /* MainWindow.xib in Resources */,
-				4FB48DAC144B577F00B026CB /* Glitch_Avatar_DemoViewController.xib in Resources */,
+				4FB48DB7144B582600B026CB /* Entitlements.entitlements in Resources */,
+				4FB48DB8144B582600B026CB /* Icon-72.png in Resources */,
+				4FB48DB9144B582600B026CB /* Icon.png in Resources */,
+				4FB48DBA144B582600B026CB /* Icon@2x.png in Resources */,
+				4FB48DBB144B582600B026CB /* iTunesArtwork.png in Resources */,
+				4FB48DE9144B583D00B026CB /* AuthenticationRequiredViewController.xib in Resources */,
+				4FB48DEE144B583D00B026CB /* LICENSE in Resources */,
+				4FB48DFC144B583D00B026CB /* SpriteDemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +342,32 @@
 			files = (
 				4FB48D9F144B577F00B026CB /* main.m in Sources */,
 				4FB48DA3144B577F00B026CB /* Glitch_Avatar_DemoAppDelegate.m in Sources */,
-				4FB48DA9144B577F00B026CB /* Glitch_Avatar_DemoViewController.m in Sources */,
+				4FB48DE8144B583D00B026CB /* AuthenticationRequiredViewController.m in Sources */,
+				4FB48DEA144B583D00B026CB /* GlitchCentral.m in Sources */,
+				4FB48DEB144B583D00B026CB /* GlitchError.m in Sources */,
+				4FB48DEC144B583D00B026CB /* GCRequest.m in Sources */,
+				4FB48DED144B583D00B026CB /* Glitch.m in Sources */,
+				4FB48DEF144B583D00B026CB /* NSObject+SBJson.m in Sources */,
+				4FB48DF0144B583D00B026CB /* SBJsonParser.m in Sources */,
+				4FB48DF1144B583D00B026CB /* SBJsonStreamParser.m in Sources */,
+				4FB48DF2144B583D00B026CB /* SBJsonStreamParserAccumulator.m in Sources */,
+				4FB48DF3144B583D00B026CB /* SBJsonStreamParserAdapter.m in Sources */,
+				4FB48DF4144B583D00B026CB /* SBJsonStreamParserState.m in Sources */,
+				4FB48DF5144B583D00B026CB /* SBJsonStreamWriter.m in Sources */,
+				4FB48DF6144B583D00B026CB /* SBJsonStreamWriterAccumulator.m in Sources */,
+				4FB48DF7144B583D00B026CB /* SBJsonStreamWriterState.m in Sources */,
+				4FB48DF8144B583D00B026CB /* SBJsonTokeniser.m in Sources */,
+				4FB48DF9144B583D00B026CB /* SBJsonUTF8Stream.m in Sources */,
+				4FB48DFA144B583D00B026CB /* SBJsonWriter.m in Sources */,
+				4FB48DFB144B583D00B026CB /* SpriteDemoViewController.m in Sources */,
+				4FB48E07144B5C6800B026CB /* GlitchAnimation.m in Sources */,
+				4FB48E08144B5C6800B026CB /* GlitchAnimationFrame.m in Sources */,
+				4FB48E09144B5C6800B026CB /* GlitchAnimationSet.m in Sources */,
+				4FB48E0A144B5C6800B026CB /* GlitchSprite.m in Sources */,
+				4FB48E0B144B5C6800B026CB /* GlitchSpriteSheet.m in Sources */,
+				4FB48E12144B5D1600B026CB /* DZDataCache.m in Sources */,
+				4FB48E13144B5D1600B026CB /* DZDataLoader.m in Sources */,
+				4FB48E14144B5D1600B026CB /* LLDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,22 +390,56 @@
 			name = MainWindow.xib;
 			sourceTree = "<group>";
 		};
-		4FB48DAA144B577F00B026CB /* Glitch_Avatar_DemoViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4FB48DAB144B577F00B026CB /* en */,
-			);
-			name = Glitch_Avatar_DemoViewController.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4F3CB790144BA309001E5FE7 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Entitlements.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Tiny Speck, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Tiny Speck, Inc.";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "7E13C057-CA26-457B-8B5C-8842BDD2113C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7E13C057-CA26-457B-8B5C-8842BDD2113C";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		4F3CB791144BA309001E5FE7 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Glitch Avatar Demo/Glitch Avatar Demo-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Glitch Avatar Demo/Glitch Avatar Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
 		4FB48DAD144B577F00B026CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -228,7 +463,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -248,7 +486,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Glitch Avatar Demo/Glitch Avatar Demo-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Glitch Avatar Demo/Glitch Avatar Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -259,7 +499,9 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Glitch Avatar Demo/Glitch Avatar Demo-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Glitch Avatar Demo/Glitch Avatar Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -273,6 +515,7 @@
 			buildConfigurations = (
 				4FB48DAD144B577F00B026CB /* Debug */,
 				4FB48DAE144B577F00B026CB /* Release */,
+				4F3CB790144BA309001E5FE7 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -282,8 +525,10 @@
 			buildConfigurations = (
 				4FB48DB0144B577F00B026CB /* Debug */,
 				4FB48DB1144B577F00B026CB /* Release */,
+				4F3CB791144BA309001E5FE7 /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
