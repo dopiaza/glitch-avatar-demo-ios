@@ -28,8 +28,6 @@
 -(void)pause;
 -(void)unpause;
 
--(void)playAnimationWithFrameNumbers:(NSArray *)frameNumbers repeat:(NSInteger)numberOfTimes;
-
 
 @property (retain, nonatomic) GlitchAnimationSet *animationSet;
 @property (assign, nonatomic) IBOutlet NSObject<GlitchSpriteDelegate> *spriteDelegate;

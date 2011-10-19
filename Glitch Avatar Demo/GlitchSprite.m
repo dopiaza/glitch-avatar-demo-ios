@@ -61,8 +61,6 @@
 @property (retain, nonatomic) GlitchAnimation* currentAnimation;
 @property (assign, nonatomic) BOOL idle;
 
-@property (retain, nonatomic) NSArray *framesForCustomAnimation;
-
 @end
 
 @implementation GlitchSprite
@@ -81,7 +79,6 @@
 @synthesize currentAnimationFrameIndex = _currentAnimationFrameIndex;
 @synthesize animationIterations = _animationIterations;
 @synthesize idle = _idle;
-@synthesize framesForCustomAnimation = _framesForCustomAnimation;
 
 -(void)initData
 {
@@ -231,7 +228,6 @@
 -(void)playAnimation:(NSString *)name repeat:(NSInteger)numberOfTimes
 {
     self.idle = NO;
-    self.framesForCustomAnimation = nil;
     GlitchAnimation *animation = [self animationForName:name];
     NSArray *frames = [self framesForAnimationName:@"idle0"];
     if ([frames count] > 0)
@@ -252,7 +248,6 @@
     {
         [self stopTimer];
         self.currentAnimation = nil;
-        self.framesForCustomAnimation = nil;
     }
 }
 
@@ -304,38 +299,9 @@
     self.idle = YES;
 }
 
-
--(void)playAnimationWithFrameNumbers:(NSArray *)frameNumbers repeat:(NSInteger)numberOfTimes
-{
-    
-    NSMutableArray *f = [NSMutableArray arrayWithCapacity:[frameNumbers count]];
-    for (NSNumber *frameNumber in frameNumbers) 
-    {
-        [f addObject:[self.frames objectForKey:frameNumber]];
-    }
-    self.framesForCustomAnimation = [NSArray arrayWithArray:f];
-    if ([self.framesForCustomAnimation count] > 0)
-    {
-        [self startTimer];
-        
-        [self showFrame:[self.framesForCustomAnimation objectAtIndex:0]]; 
-        self.currentAnimation = nil;
-        self.currentAnimationFrameIndex = 0;
-        self.animationIterations = numberOfTimes;
-    }
-}
-
 - (void)timerTick:(NSTimer*)theTimer
 {
-    NSArray *frames = nil;
-    if (self.framesForCustomAnimation)
-    {
-        frames = self.framesForCustomAnimation;
-    }
-    else
-    {
-        frames = [self framesForAnimationName:self.currentAnimation.name];
-    }
+    NSArray *frames = [self framesForAnimationName:self.currentAnimation.name];
     
     if (frames && [frames count] > 0)
     {
